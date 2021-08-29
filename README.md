@@ -20,7 +20,7 @@ The folder contains the following files...
 ## APPROACH
 
 
-### 1)	Audio Classification (Changing the format from mp3 to wap).ipynb file:**
+### 1)	Audio Classification (Changing the format from mp3 to wap).ipynb file:
 
 - The dataset provided consist of both “.mp3” and “.wav” format of files. So we converted the all files in “.wav” format for processing the data. 
     
