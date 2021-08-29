@@ -79,7 +79,7 @@ We get that RandomForest has the highest accuracy and fits the best to the model
 Then we used ***OPTUNA hyperparameter optimisation*** to tune our model, via this we get the accuracy od 56.5% 
    
 And then we change the n_jobs = -2 and the accuracy increased little bit which was 57.6%
-    
+
 Then we predict the emotion on the test data provided and save the file as prediction.csv
 
 
