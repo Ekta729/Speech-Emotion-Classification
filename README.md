@@ -3,6 +3,8 @@
 I encounter this project on a Hackathon named intelligence Augmentation...
 The problem statement of the project was to detect the emotions in a speech via dataset provided...
 
+
+
 ## Dataset Description:
 The folder contains the following files...
 1) Train.csv (contains 2 columns: "filename", "emotion")
@@ -10,7 +12,10 @@ The folder contains the following files...
 3) TrainAudioFiles (contains 5816 audio files)
 4) TestAudioFiles (contains 2482 audio files)
 
+
+
 ## APPROACH
+
 
 1)	The dataset provided consist of both “.mp3” and “.wav” format of files. So we converted the all files in “.wav” format for processing the data. 
 
@@ -22,6 +27,8 @@ The folder contains the following files...
     We converted the both train and test files from .mp3 extension to .wav extension.
    
     Then we save these converted folders as *train_wav*  and *test_wav*
+    
+    
           
 
 2)	The second file was where we visualise the data and perform Exploratory Data Analysis on the training and testing set.
@@ -39,6 +46,8 @@ The folder contains the following files...
     Then in this file we discuss about why we use librosa only to perform EDA
 
 
+
+
 3)	Third file was for pre-processing of data where we extracted features from the data
     
     **Audio Classification ( Data Preprocessing ).ipynb file:**
@@ -52,6 +61,8 @@ The folder contains the following files...
     We did this for both train and test files.
     
     Save the files with extracted features as *extracted_features.csv* and *extracted_features_test.csv*
+    
+    
     
   
 4)  The fourth and the last file is of Model Training and Testing, we perform model training of the extracted files…
