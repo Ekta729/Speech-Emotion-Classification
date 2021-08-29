@@ -6,6 +6,9 @@ The problem statement of the project was to detect the emotions in a speech via 
 
 
 ## Dataset Description:
+
+Data set info Link : https://drive.google.com/drive/folders/1LtZleSzLv1iEHn26dd154VXAb4vVnAa2?usp=sharing
+
 The folder contains the following files...
 1) Train.csv (contains 2 columns: "filename", "emotion")
 2) Test.csv (only contain filename column)
